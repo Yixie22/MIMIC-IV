@@ -1,0 +1,6 @@
+LR {'C': 0.01}
+DT {}
+RF {'n_estimators': 500}
+AdaBoost {'base_estimator': DecisionTreeClassifier(class_weight='balanced', max_depth=1), 'learning_rate': 0.1, 'n_estimators': 500}
+GBM {'learning_rate': 0.01, 'max_depth': 7, 'n_estimators': 500, 'subsample': 0.7}
+SVM {'C': 0.1, 'kernel': 'rbf'}
